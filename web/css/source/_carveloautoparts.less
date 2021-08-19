@@ -5,6 +5,8 @@
 @color-darkgrey: rgb(34, 34, 34);
 @color-ceiling: #a8a8a8;
 @color-walls: #dadada;
+@color-black: #000000;
+@color-transparent: transparent;
 
 // Fonts
 @heading-font: 'proxima-nova', sans-serif;
@@ -18,9 +20,9 @@
 // Page  colors
 @page__background-color: @color-white;
 @sidebar__background-color: @color-darkgrey;
-@primary__color: @color-lightgrey;
+@primary__color: @color-darkgrey;
 @border-color__base: @color-darkgrey;
-@link__color: @color-lightgrey;
+@link__color: @color-darkgrey;
 @link__hover__color: @color-darkgrey;
 @rating-icon__active__color: @color-yellow;
 
@@ -54,7 +56,7 @@
 button.action.tocart.primary {margin-top: 10px;}
 
 //  Primary button
-@button-primary__background: @color-yellow;
+@button-primary__background_color: @color-transparent;
 @button-primary__border: 1px solid darken(@color-yellow, 15%);
 @button-primary__color: @color-white;
 @button-primary__hover__background: darken(@color-yellow, 5%);
@@ -62,11 +64,11 @@ button.action.tocart.primary {margin-top: 10px;}
 @button-primary__hover__color: @color-white;
 
 //  Navigation
-@navigation__background: @color-white;
-@navigation-level0-item__color: @color-ceiling;
-@navigation-level0-item__active__border-color: @color-walls;
+@navigation__background: @color-darkgrey;
+@navigation-level0-item__color: @color-black;
+@navigation-level0-item__active__border-color: @color-darkgrey;
 
-@navigation-desktop__background: @color-lightgrey;
+@navigation-desktop__background: @color-darkgrey;
 @navigation-desktop-level0-item__color: @color-ceiling;
 @navigation-desktop-level0-item__hover__color: @color-walls;
 @navigation-desktop-level0-item__active__color: @color-walls;
@@ -167,7 +169,7 @@ a#openApprove, a#openReject {
 
 
 // Footer
-@footer__background-color: @color-lightgrey;
+@footer__background-color: @color-darkgrey;
 @footer-links-color: @color-yellow;
 @footer-links-color-hover: darken(@color-yellow, 15%);
 @copyright__background-color: darken(@color-lightgrey, 5%);
