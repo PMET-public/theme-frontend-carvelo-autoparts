@@ -6,6 +6,7 @@
 @color-ceiling: #a8a8a8;
 @color-walls: #dadada;
 @color-black: #000000;
+@color-white: #ffffff;
 @color-transparent: transparent;
 
 // Fonts
@@ -51,14 +52,14 @@
 
 //  Buttons
 @button__color: @color-yellow;
-@button__background: transparent;
-@button__border: 1px solid @border-color__base;
+@button__background: @color-yellow;
+@button__border: 1px solid @color-yellow;
 button.action.tocart.primary {margin-top: 10px;}
 
 //  Primary button
-@button-primary__background_color: transparent;
+@button-primary__background_color: @color-white;
 @button-primary__border: 1px solid darken(@color-yellow, 15%);
-@button-primary__color: @color-white;
+@button-primary__color: @color-yellow;
 @button-primary__hover__background: darken(@color-yellow, 5%);
 @button-primary__hover__border: 1px solid @color-darkgrey;
 @button-primary__hover__color: @color-white;
