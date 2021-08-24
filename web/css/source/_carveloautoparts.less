@@ -79,7 +79,7 @@ a.pagebuilder-button-primary, button.pagebuilder-button-primary, div.pagebuilder
 .product-social-links .action.towishlist:before { font-size: 30px; }
 .product-social-links .action.tocompare:before { font-size: 30px; }
 .product-social-links .action.mailto.friend:before { font-size: 30px; }
-.review-control-vote:before { content: '\e605' '\e605' '\e605' '\e605' '\e605'; }
+.review-control-vote:before { content: '\e605' '\e605' '\e605' '\e605' '\e605' !important; }
 .bundle-options-container .block-bundle-summary .product-addto-links>.action:before, .product-item-actions .actions-secondary>.action:before, .product-social-links .action.tocompare:before, .wishlist.split.button>.action.split:before, .product-social-links .action.mailto.friend:before, .product-social-links .action.towishlist:before, .block-bundle-summary .action.towishlist:before, .product-item .action.towishlist:before, .table-comparison .action.towishlist:before { width: 30px;}
 
 //@submenu-item__color: @color-darkgrey;
@@ -571,4 +571,14 @@ button.action.primary:hover, a.pagebuilder-button-primary:hover, button.pagebuil
 }
 .copyright {
     background: black;
+}
+button:active, button.action:active, a.pagebuilder-button-secondary:active, button.pagebuilder-button-secondary:active, div.pagebuilder-button-secondary:active {
+    border-color: #ebb155;
+    background: #ebb155;
+    color: #111;
+}
+button.action.primary:active, a.pagebuilder-button-primary:active, button.pagebuilder-button-primary:active, div.pagebuilder-button-primary:active {
+    border-color: #e0a038;
+    color: #e0a038;
+    background: transparent;
 }
