@@ -711,3 +711,29 @@ select {
   overflow: hidden; // Jarallax Fix (Safari)
   z-index: -1;
 }
+
+// B2B Fixes
+// Style company account signup dropdown and mask button
+body > div.page-wrapper > header > div.panel.wrapper > div > ul:nth-child(4) > li.customer-register.links-container.active > span > button > span {
+  -webkit-text-size-adjust: 100%;
+  list-style: none none;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 1.4rem;
+  cursor: pointer;
+  line-height: inherit;
+  text-shadow: none;
+  font-weight: 400;
+  color: #fff;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+// Fix top gap for widget
+.block-banners {
+  margin-bottom: 0px !important;
+}
